@@ -9,7 +9,6 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "GBInfiniteScrollView",
-            type: .dynamic,
             targets: ["GBInfiniteScrollView"]),
     ],
     dependencies: [
@@ -22,7 +21,6 @@ let package = Package(
         .target(
             name: "GBInfiniteScrollView",
             dependencies: [],
-            path: "GBInfiniteScrollView/GBInfiniteScrollView",
-            publicHeadersPath: "GBInfiniteScrollView/GBInfiniteScrollView")
+            path: "GBInfiniteScrollView/GBInfiniteScrollView")
     ]
 )
