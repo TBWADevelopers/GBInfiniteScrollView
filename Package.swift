@@ -21,6 +21,7 @@ let package = Package(
         .target(
             name: "GBInfiniteScrollView",
             dependencies: [],
-            path: "GBInfiniteScrollView/GBInfiniteScrollView")
+            path: "GBInfiniteScrollView/GBInfiniteScrollView",
+            publicHeadersPath: ".")
     ]
 )
