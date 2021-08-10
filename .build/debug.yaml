@@ -1,0 +1,57 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "GBInfiniteScrollView-debug.module": ["<GBInfiniteScrollView-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<GBInfiniteScrollView-debug.module>"]
+  "test": ["<GBInfiniteScrollView-debug.module>"]
+default: "main"
+nodes:
+  "/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/":
+    is-directory-structure: true
+commands:
+  "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollView.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView.m"]
+    outputs: ["/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollView.m.o"]
+    description: "Compiling GBInfiniteScrollView GBInfiniteScrollView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GBInfiniteScrollView","-I","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/include","-fmodules-cache-path=/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollView.m.d","-c","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView.m","-o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollView.m.o"]
+    deps: "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollView.m.d"
+
+  "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollViewPage.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollViewPage.m"]
+    outputs: ["/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollViewPage.m.o"]
+    description: "Compiling GBInfiniteScrollView GBInfiniteScrollViewPage.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GBInfiniteScrollView","-I","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/include","-fmodules-cache-path=/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollViewPage.m.d","-c","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollViewPage.m","-o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollViewPage.m.o"]
+    deps: "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollViewPage.m.d"
+
+  "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/FXPageControl/FXPageControl.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/Optional/FXPageControl/FXPageControl.m"]
+    outputs: ["/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/FXPageControl/FXPageControl.m.o"]
+    description: "Compiling GBInfiniteScrollView Optional/FXPageControl/FXPageControl.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GBInfiniteScrollView","-I","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/include","-fmodules-cache-path=/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/FXPageControl/FXPageControl.m.d","-c","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/Optional/FXPageControl/FXPageControl.m","-o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/FXPageControl/FXPageControl.m.o"]
+    deps: "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/FXPageControl/FXPageControl.m.d"
+
+  "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m.o":
+    tool: clang
+    inputs: ["/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m"]
+    outputs: ["/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m.o"]
+    description: "Compiling GBInfiniteScrollView Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GBInfiniteScrollView","-I","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/include","-fmodules-cache-path=/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m.d","-c","/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m","-o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m.o"]
+    deps: "/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m.d"
+
+  "<GBInfiniteScrollView-debug.module>":
+    tool: phony
+    inputs: ["/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollView.m.o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/GBInfiniteScrollViewPage.m.o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/FXPageControl/FXPageControl.m.o","/Users/vadym/Projects/GBInfiniteScrollView/.build/x86_64-apple-macosx/debug/GBInfiniteScrollView.build/Optional/PageControlSubClass/GBInfiniteScrollViewWithPageControl.m.o"]
+    outputs: ["<GBInfiniteScrollView-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/vadym/Projects/GBInfiniteScrollView/GBInfiniteScrollView/GBInfiniteScrollView/","/Users/vadym/Projects/GBInfiniteScrollView/Package.swift","/Users/vadym/Projects/GBInfiniteScrollView/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
